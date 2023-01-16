@@ -1,0 +1,25 @@
+{
+  "name": "book_rcord_management",
+  "version": "1.0.0",
+  "description": "Book Record Management Backend using node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitesh-60/Book-Record-management_-Backend-.git"
+  },
+  "author": "Nitesh Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitesh-60/Book-Record-management_-Backend-/issues"
+  },
+  "homepage": "https://github.com/Nitesh-60/Book-Record-management_-Backend-#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
