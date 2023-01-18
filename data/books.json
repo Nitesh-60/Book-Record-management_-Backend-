@@ -1,0 +1,30 @@
+{
+   "books":[
+      {
+         "id": "1",
+         "name": "The Hobbit",
+         "author": "J.R.R Telkien",
+         "genre": "Fantasy",
+         "price": "1299",
+         "publisher": "Houghton Mifflin"
+      },
+      {
+         "id": "2",
+         "name": "Rich Dad Poor Dad",
+         "author": "God",
+         "genre": "Motivational",
+         "price": "1299",
+         "publisher": "heaven"
+      },
+      {
+         
+         "id": "3",
+         "name": "The Land Before Time",
+         "author": "God",
+         "genre": "Fantasy",
+         "price": "1299",
+         "publisher": "heaven"
+      }
+   
+   ]
+}
