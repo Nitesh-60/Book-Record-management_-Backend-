@@ -124,5 +124,23 @@ router.delete("/:id",(req,res)=>{
     });
 })
 
+/**
+  * Route: /users/subscription-details/{id}
+  * Method: GET
+  * Description: Get subscription details using id
+  * Access: Public
+  * Parameter: id
+  */
+router.get("/subscription-details/:id",(req,res)=>{
+    const {id} = req.params;
+
+    const user = users.find((each)=>each.id === id)
+    if(!user) return res.status(200).json({
+        success: false,
+        message: "User not found",
+    });
+
+});
+
 
 module.exports = router;
